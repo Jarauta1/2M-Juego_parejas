@@ -4,6 +4,7 @@ const app = express();
 let MongoClient = mongodb.MongoClient;
 
 let imagenes = require("./imagenes")
+let imagenes = require("./imagenes")
 
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: false }));
